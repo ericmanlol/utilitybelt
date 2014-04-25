@@ -63,6 +63,39 @@ def gap_insertion_sort(list, start, gap):
         list[position] = current_value
 
 
+def merge_sort(list):
+    print "Splitting -> ", list
+    if len(list) > 1:
+        mid = len(list) // 2
+        left_half = list[:mid]
+        right_half = list[mid:]
+
+        merge_sort(left_half)
+        merge_sort(right_half)
+
+        i, j, k = 0, 0, 0
+
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[i]:
+                list[k] = left_half[i]
+                i = i + 1
+            else:
+                list[k] = right_half[j]
+                j = j + 1
+            k = k + 1
+
+        while i < len(left_half):
+            list[k] = left_half[i]
+            i = i + 1
+            k = k + 1
+
+        while j < len(right_half):
+            list[k] = right_half[j]
+            j = j + 1
+            k = k + 1
+
+        print "Merging ->", list
+
 if __name__ == "__main__":
     print 'allSortsOfStuff being run directly'
 else:
