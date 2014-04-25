@@ -22,6 +22,8 @@ def selection_sort(list):
         list[position_of_max] = tmplist
 
 
+
+
 if __name__ == "__main__":
     print 'allSortsOfStuff being run directly'
 else:
