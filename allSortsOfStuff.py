@@ -1,7 +1,5 @@
 # clean up later
-
-# github.com/ericmanlol/googlecodejam
-
+    
 
 def bubble_sort(list):
     for num in range(len(list) - 1, 0, -1):
