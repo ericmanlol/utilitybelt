@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Personal One Liners](#personal-one-liners)
+  - [Fonts](#fonts)
+      - [enumerate colors supported by terminals](#enumerate-colors-supported-by-terminals)
+      - [enumerate terminal capabilities](#enumerate-terminal-capabilities)
+  - [Photos](#photos)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 #Personal One Liners
 
 ## Fonts
